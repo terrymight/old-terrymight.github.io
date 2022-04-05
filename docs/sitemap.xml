@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/tags/golang/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url>
@@ -39,11 +44,6 @@
   
   <url>
     <loc>http://example.org/categories/lorem/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
     <lastmod>2021-08-01T21:29:20+02:00</lastmod>
   </url>
   

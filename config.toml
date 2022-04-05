@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "dipbits Technology Ltd"
 
 theme = "universal-theme"
 publishDir = "docs"
@@ -9,9 +9,9 @@ publishDir = "docs"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = "https-terrymight-github-io-dipbitstech"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-KEN5ST6C54"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
@@ -29,35 +29,35 @@ paginate = 10
     url        = "/"
     weight     = 1
 
-[[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
+#[[menu.main]]
+#    name       = "Option 1: Default Page"
+#    url        = "/"
+#    weight     = 1
+#    parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
+#[[menu.main]]
+#    name       = "Option 2: Application"
+#    url        = "/"
+#    weight     = 2
+#    parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
+#[[menu.main]]
+#    name       = "Option 3: Startup"
+#    url        = "/"
+#    weight     = 3
+#    parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
+#[[menu.main]]
+#    name       = "Option 4: Agency"
+#    url        = "/"
+#    weight     = 4
+#    parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
-    weight     = 5
-    parent     = "menu.home"
+#[[menu.main]]
+#    name       = "Option 5: Portfolio"
+#    url        = "/"
+#    weight     = 5
+#    parent     = "menu.home"
 
 [[menu.main]]
     name       = "Features"
@@ -359,20 +359,20 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+12 34 567 89 01"
+    url = "tel:+234 703 910 8815"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
     weight = 2
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/terrymight"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
-[[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
+#[[menu.topbar]]
+    #weight = 3
+    #name = "Facebook"
+    #url = "http://facebook.com"
+    #pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 4
@@ -383,15 +383,15 @@ paginate = 10
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:hello@dipbitstech.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "Tejiri Mayone"
+    defaultKeywords = ["Technology in nigeria", "webapp", "go", "laravel", "dipbits", "dipbitstech"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "Site designed and maintained by dipbits Technology Ltd"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -399,14 +399,14 @@ paginate = 10
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+    #enableGoogleMaps = false
+    #googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    #latitude = "-12.043333"
+    #longitude = "-77.028333"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "green"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -421,9 +421,9 @@ paginate = 10
     # - test a dummy email yourself
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io endpoint url
-    formspree_action = "https://formspree.io/sample/of/endpoint"
-    contact_form_ajax = false
+    # Enable the contact form by entering your Formspree.io endpoint url
+    formspree_action = "https://formspree.io/f/xnqwbbkg"
+    contact_form_ajax = true
 
     # Formspree form supports Google reCAPTCHA Key (type v2).
     # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
@@ -442,27 +442,25 @@ paginate = 10
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Dipbits Technology LTD is registered in Nigeria, with over one decades in technology, we adverse, build, migrate your IT systems. </p>"
+    copyright = "Copyright (c) 2021 - 2022, Dipbits Technology Ltd; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     dropdown_mouse_over = false
 
-    disabled_logo = false
-    logo_text = "Universal"
+    disabled_logo = true
+    logo_text = "Dipbits Technology LTD"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    contact_url = "/dipbitstech/contact"
+    address = """<p class="text-uppercase"><strong>Dipbits Technology Ltd.</strong>
+        <br>suit 35, God`s own plaza
+        <br>Area 11
+        <br>Garki, Abuja
+        <strong>Nigieria</strong>
       </p>
       """
 
@@ -472,9 +470,9 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Contact us on +234 703 910 8815 or tejiri.mayone@dipbitstech.com.</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+234 703 910 8815" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:tejiri.mayone@dipbitstech.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
 
