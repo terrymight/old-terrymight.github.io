@@ -470,9 +470,9 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +234 703 910 8815 or tejiri.mayone@dipbitstech.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us on +234 703 910 8815 or hello@dipbitstech.com.</p>
       <p class="hidden-md hidden-lg"><a href="tel:+234 703 910 8815" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:tejiri.mayone@dipbitstech.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      <a href="mailto:hello@dipbitstech.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
 
