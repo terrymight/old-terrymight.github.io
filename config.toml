@@ -11,7 +11,7 @@ defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "https-terrymight-github-io-dipbitstech"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "G-KEN5ST6C54"
+googleAnalytics = "G-SWSEK891K4"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
