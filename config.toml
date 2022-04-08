@@ -405,10 +405,10 @@ paginate = 10
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = "Preparing for your success trusted IT services."
+    subtitle = "We deliver our clients with moden IT technology using complex systems made simple for it`s customers."
+    link_url = "/contact"
+    link_text = "Let us hear from you"
 
 [params.clients]
     enable = true
