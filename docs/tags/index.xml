@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on dipbits Technology Ltd</title>
-    <link>http://example.org/tags/</link>
+    <link>https://dipbitstech.com/tags/</link>
     <description>Recent content in Tags on dipbits Technology Ltd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://dipbitstech.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>golang</title>
-      <link>http://example.org/tags/golang/</link>
+      <link>https://dipbitstech.com/tags/golang/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>http://example.org/tags/golang/</guid>
+      <guid>https://dipbitstech.com/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://example.org/tags/hugo/</link>
+      <link>https://dipbitstech.com/tags/hugo/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>http://example.org/tags/hugo/</guid>
+      <guid>https://dipbitstech.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>http://example.org/tags/programming/</link>
+      <link>https://dipbitstech.com/tags/programming/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>http://example.org/tags/programming/</guid>
+      <guid>https://dipbitstech.com/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>theme</title>
-      <link>http://example.org/tags/theme/</link>
+      <link>https://dipbitstech.com/tags/theme/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>http://example.org/tags/theme/</guid>
+      <guid>https://dipbitstech.com/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>http://example.org/tags/go/</link>
+      <link>https://dipbitstech.com/tags/go/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>http://example.org/tags/go/</guid>
+      <guid>https://dipbitstech.com/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ipsum</title>
-      <link>http://example.org/tags/ipsum/</link>
+      <link>https://dipbitstech.com/tags/ipsum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/ipsum/</guid>
+      <guid>https://dipbitstech.com/tags/ipsum/</guid>
       <description></description>
     </item>
     
