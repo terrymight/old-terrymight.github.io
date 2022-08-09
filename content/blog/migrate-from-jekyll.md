@@ -4,6 +4,7 @@ tags = ["ipsum"]
 categories = ["lorem"]
 banner = "img/banners/banner-5.jpg"
 twitter_author = "jekyllrb"
+draft = "true"
 +++
 
 ## Move static content to `static`

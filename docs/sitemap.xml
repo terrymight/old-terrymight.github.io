@@ -4,107 +4,67 @@
   
   <url>
     <loc>https://dipbitstech.com/authors/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://dipbitstech.com/blog/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://dipbitstech.com/categories/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dipbitstech.com/blog/2021/08/01/categories-post/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <loc>https://dipbitstech.com/tags/composer/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dipbitstech.com/categories/composer/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://dipbitstech.com/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dipbitstech.com/tags/golang/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <loc>https://dipbitstech.com/tags/framework/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dipbitstech.com/tags/hugo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <loc>https://dipbitstech.com/categories/framework/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dipbitstech.com/authors/john-doe/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <loc>https://dipbitstech.com/blog/2022/08/09/how-to-install-composer-lammp-ubuntu/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dipbitstech.com/categories/lorem/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <loc>https://dipbitstech.com/tags/php/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dipbitstech.com/tags/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/categories/programming/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/categories/pseudo/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <loc>https://dipbitstech.com/categories/php/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://dipbitstech.com/tags/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dipbitstech.com/tags/theme/</loc>
-    <lastmod>2021-08-01T21:29:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/authors/jane-doe/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/blog/2015/09/17/how-to-uild-wordpress-and-ost-for-free/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>https://dipbitstech.com/authors/tejiri-mayone/</loc>
+    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url>
   
   <url>
@@ -113,14 +73,6 @@
   
   <url>
     <loc>https://dipbitstech.com/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/tags/ipsum/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dipbitstech.com/blog/1/01/01/migrate-from-jekyll/</loc>
   </url>
   
 </urlset>

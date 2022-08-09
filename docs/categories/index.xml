@@ -6,40 +6,31 @@
     <description>Recent content in Categories on dipbits Technology Ltd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://dipbitstech.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Aug 2022 09:50:46 +0200</lastBuildDate><atom:link href="https://dipbitstech.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>lorem</title>
-      <link>https://dipbitstech.com/categories/lorem/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <title>COMPOSER</title>
+      <link>https://dipbitstech.com/categories/composer/</link>
+      <pubDate>Tue, 09 Aug 2022 09:50:46 +0200</pubDate>
       
-      <guid>https://dipbitstech.com/categories/lorem/</guid>
+      <guid>https://dipbitstech.com/categories/composer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>programming</title>
-      <link>https://dipbitstech.com/categories/programming/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <title>FRAMEWORK</title>
+      <link>https://dipbitstech.com/categories/framework/</link>
+      <pubDate>Tue, 09 Aug 2022 09:50:46 +0200</pubDate>
       
-      <guid>https://dipbitstech.com/categories/programming/</guid>
+      <guid>https://dipbitstech.com/categories/framework/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>pseudo</title>
-      <link>https://dipbitstech.com/categories/pseudo/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <title>PHP</title>
+      <link>https://dipbitstech.com/categories/php/</link>
+      <pubDate>Tue, 09 Aug 2022 09:50:46 +0200</pubDate>
       
-      <guid>https://dipbitstech.com/categories/pseudo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>starting</title>
-      <link>https://dipbitstech.com/categories/starting/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://dipbitstech.com/categories/starting/</guid>
+      <guid>https://dipbitstech.com/categories/php/</guid>
       <description></description>
     </item>
     

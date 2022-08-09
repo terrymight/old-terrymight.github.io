@@ -5,6 +5,7 @@ tags = ["go"]
 categories = ["programming"]
 banner = "img/banners/banner-2.jpg"
 facebook_author = "GolangSociety"
+draft = "true"
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
