@@ -35,7 +35,7 @@ Then run the command below to allow the 'composer' command to be run globally (t
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
-![image alt text](/images/tn.png)
+![another test](/img/post/dipbits-composer.png)
 
 
 
