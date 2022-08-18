@@ -35,5 +35,8 @@ Then run the command below to allow the 'composer' command to be run globally (t
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
-![Example image](/static/img/banner2.jpg)
+![image alt text](/images/tn.png)
+
+
+
 Leave us a comment if you have any questions.
