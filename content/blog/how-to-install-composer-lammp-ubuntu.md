@@ -35,6 +35,12 @@ Then run the command below to allow the 'composer' command to be run globally (t
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
+To try if the installation was done correctly run this command.
+
+```
+composer -v
+```
+
 ![another test](/img/post/dipbits-composer.png)
 
 
