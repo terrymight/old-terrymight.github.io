@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Upload Files TO Github Using Bash</title>
+<meta name="author" content="Tejiri Mayone" />
+
+
+
+
+<meta name="keywords" content="Technology in nigeria, webapp, go, laravel, dipbits, dipbitstech, TERMINAL">
+
+
+<meta name="description" content="This time we would be using bash script to deploy files to github">
+
+<meta name="generator" content="Hugo 0.79.0" />
+
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link href="/css/animate.css" rel="stylesheet">
+
+
+
+  <link href="/css/style.green.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="/css/custom.css?1660919966" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+
+
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="https://dipbitstech.com/index.xml" type="application/rss+xml" title="dipbits Technology Ltd">
+
+
+
+
+
+
+
+
+<meta property="og:locale" content="en_us">
+<meta property="og:site_name" content="dipbits Technology Ltd">
+<meta property="og:title" content="Upload Files TO Github Using Bash">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://dipbitstech.com/blog/2022/08/18/upload-files-to-github-using-bash/" />
+<meta property="og:description" content="This time we would be using bash script to deploy files to github">
+<meta property="og:image" content="https://dipbitstech.com/img/post/bash.jpg">
+<meta property="og:image:type" content="image/jpg">
+
+
+
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="450">
+
+
+<meta property="og:updated_time" content="2022-08-18T09:50:46&#43;0200">
+
+  
+  
+  <meta property="article:section" content="TERMINAL">
+  <meta property="article:tag" content="TERMINAL">
+  
+  
+  <meta property="article:published_time" content="2022-08-18T09:50:46&#43;0200">
+  <meta property="article:modified_time" content="2022-08-18T09:50:46&#43;0200">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@GoHugoIO">
+<meta name="twitter:title" content="Upload Files TO Github Using Bash">
+
+<meta name="twitter:image" content="https://dipbitstech.com/img/post/bash.jpg">
+
+<meta name="twitter:description" content="This time we would be using bash script to deploy files to github">
+
+
+    
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm " role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="/">
+                    
+                      <h4>Dipbits Technology LTD</h4>
+                    
+                    <span class="sr-only">Upload Files TO Github Using Bash - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/">Home</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                    
+                    
+                    <li class="dropdown use-yamm yamm-fw ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            <li>
+                            <div class="yamm-content">
+                            <div class="row">
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>About</h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                    <h5>Portfolio</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Dipbits Products</code></h5>
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                </div>
+                                <div class="col-sm-3">
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                
+                                    
+                                    
+                                    <h5>Dipbits Tech API`s</code></h5>
+                                    
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                            </div>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+                    
+                  
+
+                  
+
+                  
+                  <li class="dropdown active">
+                    <a href="/blog/">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/faq/">FAQ</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/contact/">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Upload Files TO Github Using Bash</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+			      By <a href="/authors/tejiri-mayone">Tejiri Mayone</a>
+                            
+                            
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              August 18, 2022
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          <h2 id="introduction">Introduction</h2>
+<p>Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.</p>
+<p>A bash script is a series of commands written in a file. These are read and executed by the bash program. The program executes line by line.</p>
+<h3 id="requirement">Requirement</h3>
+<p>You need to have a bieginner knowledge on the following :</p>
+<ul>
+<li>Text editor for this tutorial we would using <a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+<li>Terminal</li>
+<li>Git commands</li>
+<li>An account with <a href="https://github.com/">Gihub</a></li>
+</ul>
+<h3 id="procedure">Procedure</h3>
+<p>Open your terminal and navigate to the root directory of your project</p>
+<pre><code>$ cd Documents/projects/bash
+</code></pre><p>Now create a file called deploy.sh</p>
+<pre><code>$ touch deploy.sh
+</code></pre><p>then open the file with <a href="https://code.visualstudio.com">Visual Studio Code</a> editor. It should look like the img blow.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="/img/post/bash_screenshot.png" alt="space-1.jpg"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>share my created bash file with .sh.</em></td>
+</tr>
+</tbody>
+</table>
+<p>In the our <code>deploy.sh</code> file input the following code, I will explain what each line means what it does.</p>
+<pre><code>#!/bin/sh
+
+# If a command fails then deploy stops
+
+set -e
+
+printf &quot;\033[0;32mDeploying updates to GitHub...\033[0m\n&quot;
+
+# Build the project. 
+hugo # if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`
+
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg=&quot;rebuilding site by $(whoami) $(date)&quot;
+if [ -n &quot;$*&quot; ]; then
+	msg=&quot;$*&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin main
+</code></pre><p>After you have added the code the script you are almost done at this stage.</p>
+<p>On you terminal type this</p>
+<pre><code>$ chmod +x deploy.sh 
+</code></pre><p>After that run this.</p>
+<pre><code>./deploy.sh
+</code></pre><p>At this point you will promoted to enter Git username and token</p>
+
+                        </div>
+                        
+                        
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-terrymight-github-io-dipbitstech" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="https://dipbitstech.com/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="/categories/framework">FRAMEWORK (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/php">PHP (1)</a>
+            </li>
+            
+            <li>
+                <a href="/categories/terminal">TERMINAL (2)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li >
+                <a href="/tags/framework"><i class="fas fa-tags"></i> framework</a>
+            </li>
+            
+            <li >
+                <a href="/tags/terminal"><i class="fas fa-tags"></i> terminal</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About us</h4>
+
+            <p>Dipbits Technology LTD is registered in Nigeria, with over one decades in technology, we adverse, build, migrate your IT systems. </p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+            
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://dipbitstech.com/blog/2022/08/18/upload-files-to-github-using-bash/">
+                          
+                            <img src="/img/post/bash.jpg" class="img-responsive" alt="Upload Files TO Github Using Bash">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://dipbitstech.com/blog/2022/08/18/upload-files-to-github-using-bash/">Upload Files TO Github Using Bash</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="https://dipbitstech.com/blog/2022/08/09/how-to-install-composer-lammp-ubuntu/">
+                          
+                            <img src="/img/banners/banner-5.jpg" class="img-responsive" alt="How To Install Composer Globally In Lammp Ubuntu">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="https://dipbitstech.com/blog/2022/08/09/how-to-install-composer-lammp-ubuntu/">How To Install Composer Globally In Lammp Ubuntu</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+            
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            <p class="text-uppercase"><strong>Dipbits Technology Ltd.</strong>
+        <br>suit 35, God`s own plaza
+        <br>Area 11
+        <br>Garki, Abuja
+        <strong>Nigieria</strong>
+      </p>
+      
+
+            <a href="/dipbitstech/contact" class="btn btn-small btn-template-main">Go to contact page</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2021 - 2022, Dipbits Technology Ltd; all rights reserved.</p>
+            
+            <p class="pull-right">
+              
+
+              
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'G-SWSEK891K4', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="/js/front.js"></script>
+
+
+<script src="/js/owl.carousel.min.js"></script>
+
+
+
+  </body>
+</html>

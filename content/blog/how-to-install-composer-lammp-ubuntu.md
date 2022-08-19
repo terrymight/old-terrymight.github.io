@@ -1,8 +1,8 @@
 +++
 title = "How To Install Composer Globally In Lammp Ubuntu"
 date = "2022-08-09T09:50:46+02:00"
-tags = ["PHP","COMPOSER","FRAMEWORK"]
-categories = ["PHP","COMPOSER","FRAMEWORK"]
+tags = ["TERMINAL","FRAMEWORK"]
+categories = ["PHP","TERMINAL","FRAMEWORK"]
 description = "How to Install Composer in Lammp in Linux, without installing others packages"
 authors = ["Tejiri Mayone"]
 banner = "img/banners/banner-5.jpg"
