@@ -36,7 +36,7 @@
 
 
 
-<link href="/css/custom.css?1660919966" rel="stylesheet">
+<link href="/css/custom.css?1660920527" rel="stylesheet">
 
 
 
@@ -381,7 +381,7 @@
 <p>Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.</p>
 <p>A bash script is a series of commands written in a file. These are read and executed by the bash program. The program executes line by line.</p>
 <h3 id="requirement">Requirement</h3>
-<p>You need to have a bieginner knowledge on the following :</p>
+<p>You need to have a beginner knowledge on the following :</p>
 <ul>
 <li>Text editor for this tutorial we would using <a href="https://code.visualstudio.com">Visual Studio Code</a></li>
 <li>Terminal</li>
@@ -406,7 +406,7 @@
 </tr>
 </tbody>
 </table>
-<p>In the our <code>deploy.sh</code> file input the following code, I will explain what each line means what it does.</p>
+<p>In the your <code>deploy.sh</code> file input the following code, I will explain what each line means what it does.</p>
 <pre><code>#!/bin/sh
 
 # If a command fails then deploy stops
@@ -431,12 +431,25 @@ git commit -m &quot;$msg&quot;
 
 # Push source and build repos.
 git push origin main
-</code></pre><p>After you have added the code the script you are almost done at this stage.</p>
+</code></pre><p>After you have added the code to the script you are almost done at this stage.</p>
 <p>On you terminal type this</p>
 <pre><code>$ chmod +x deploy.sh 
 </code></pre><p>After that run this.</p>
-<pre><code>./deploy.sh
-</code></pre><p>At this point you will promoted to enter Git username and token</p>
+<pre><code>$ ./deploy.sh
+</code></pre><p>At this point you will prompted to enter Git username and token.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="/img/post/github-bash.png" alt="space-1.jpg"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>shared github prompt</em></td>
+</tr>
+</tbody>
+</table>
+<p>That is all, it is that easy and striaght forward. Please like and share let me know your thoughts and questions in the comment below.</p>
 
                         </div>
                         

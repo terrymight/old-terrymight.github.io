@@ -15,7 +15,7 @@
       <guid>https://dipbitstech.com/blog/2022/08/18/upload-files-to-github-using-bash/</guid>
       <description>Introduction Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
 A bash script is a series of commands written in a file. These are read and executed by the bash program. The program executes line by line.
-Requirement You need to have a bieginner knowledge on the following :
+Requirement You need to have a beginner knowledge on the following :
  Text editor for this tutorial we would using Visual Studio Code Terminal Git commands An account with Gihub  Procedure Open your terminal and navigate to the root directory of your project</description>
     </item>
     

@@ -17,7 +17,7 @@ A bash script is a series of commands written in a file. These are read and exec
 
 ### Requirement 
 
-You need to have a bieginner knowledge on the following :
+You need to have a beginner knowledge on the following :
 
 * Text editor for this tutorial we would using [Visual Studio Code](https://code.visualstudio.com)
 * Terminal
@@ -45,7 +45,7 @@ then open the file with [Visual Studio Code](https://code.visualstudio.com) edit
 | *share my created bash file with .sh.* |
 
 
-In the our `deploy.sh` file input the following code, I will explain what each line means what it does.
+In the your `deploy.sh` file input the following code, I will explain what each line means what it does.
 
 ```
 #!/bin/sh
@@ -74,7 +74,7 @@ git commit -m "$msg"
 git push origin main
 ```
 
-After you have added the code the script you are almost done at this stage. 
+After you have added the code to the script you are almost done at this stage. 
 
 On you terminal type this
 
@@ -85,7 +85,13 @@ $ chmod +x deploy.sh
 After that run this.
 
 ```
-./deploy.sh
+$ ./deploy.sh
 ```
 
-At this point you will promoted to enter Git username and token 
+At this point you will prompted to enter Git username and token.
+
+| ![space-1.jpg](/img/post/github-bash.png) | 
+|:--:| 
+| *shared github prompt* |
+
+That is all, it is that easy and striaght forward. Please like and share let me know your thoughts and questions in the comment below.
