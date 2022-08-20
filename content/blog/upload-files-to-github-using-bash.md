@@ -19,9 +19,9 @@ A bash script is a series of commands written in a file. These are read and exec
 
 You need to have a beginner knowledge on the following :
 
-* Text editor for this tutorial we would using [Visual Studio Code](https://code.visualstudio.com)
+* Text editors (we will be using [Visual Studio Code](https://code.visualstudio.com)).
 * Terminal
-* Git commands
+* Basic knowledge on Git commands
 * An account with [Gihub](https://github.com/)
 
 ### Procedure
