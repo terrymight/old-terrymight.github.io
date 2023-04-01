@@ -6,7 +6,16 @@
     <description>Recent content in Categories on dipbits Technology Ltd</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2022 09:50:46 +0200</lastBuildDate><atom:link href="https://dipbitstech.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 09:50:46 +0200</lastBuildDate><atom:link href="https://dipbitstech.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML</title>
+      <link>https://dipbitstech.com/categories/html/</link>
+      <pubDate>Wed, 01 Mar 2023 09:50:46 +0200</pubDate>
+      
+      <guid>https://dipbitstech.com/categories/html/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>TERMINAL</title>
       <link>https://dipbitstech.com/categories/terminal/</link>
