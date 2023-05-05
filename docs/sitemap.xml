@@ -3,27 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dipbitstech.com/authors/</loc>
-    <lastmod>2023-04-16T10:33:46+02:00</lastmod>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
   </url><url>
     <loc>https://dipbitstech.com/blog/</loc>
-    <lastmod>2023-04-16T10:33:46+02:00</lastmod>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
   </url><url>
     <loc>https://dipbitstech.com/categories/</loc>
-    <lastmod>2023-04-16T10:33:46+02:00</lastmod>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
   </url><url>
     <loc>https://dipbitstech.com/</loc>
-    <lastmod>2023-04-16T10:33:46+02:00</lastmod>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
+  </url><url>
+    <loc>https://dipbitstech.com/tags/framework/</loc>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
+  </url><url>
+    <loc>https://dipbitstech.com/categories/framework/</loc>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
+  </url><url>
+    <loc>https://dipbitstech.com/blog/2023/05/04/laravel_auth_with_username_email/</loc>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
+  </url><url>
+    <loc>https://dipbitstech.com/tags/</loc>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
+  </url><url>
+    <loc>https://dipbitstech.com/authors/tejiri-mayone/</loc>
+    <lastmod>2023-05-04T14:33:46+02:00</lastmod>
   </url><url>
     <loc>https://dipbitstech.com/tags/javascript/</loc>
     <lastmod>2023-04-16T10:33:46+02:00</lastmod>
   </url><url>
     <loc>https://dipbitstech.com/categories/javascript/</loc>
-    <lastmod>2023-04-16T10:33:46+02:00</lastmod>
-  </url><url>
-    <loc>https://dipbitstech.com/tags/</loc>
-    <lastmod>2023-04-16T10:33:46+02:00</lastmod>
-  </url><url>
-    <loc>https://dipbitstech.com/authors/tejiri-mayone/</loc>
     <lastmod>2023-04-16T10:33:46+02:00</lastmod>
   </url><url>
     <loc>https://dipbitstech.com/blog/2023/04/16/the-power-of-the-javascript-reduce-function/</loc>
@@ -52,12 +61,6 @@
   </url><url>
     <loc>https://dipbitstech.com/blog/2022/08/18/upload-files-to-github-using-bash/</loc>
     <lastmod>2022-08-18T09:50:46+02:00</lastmod>
-  </url><url>
-    <loc>https://dipbitstech.com/tags/framework/</loc>
-    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
-  </url><url>
-    <loc>https://dipbitstech.com/categories/framework/</loc>
-    <lastmod>2022-08-09T09:50:46+02:00</lastmod>
   </url><url>
     <loc>https://dipbitstech.com/blog/2022/08/09/how-to-install-composer-lammp-ubuntu/</loc>
     <lastmod>2022-08-09T09:50:46+02:00</lastmod>
